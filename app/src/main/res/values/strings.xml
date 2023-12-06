@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rest</string>
+    <string name="_0">0</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="type_caption_to_be_inserted_in_the_image">Type Caption To be inserted in the image</string>
+    <string name="caption">Caption</string>
+</resources>

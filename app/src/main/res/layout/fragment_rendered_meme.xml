@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_caption_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/type_caption_to_be_inserted_in_the_image" />
+
+    <Button
+        android:id="@+id/button_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caption" />
+
+    <ImageView
+        android:id="@+id/image_rendered_meme"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background" />
+</LinearLayout>
